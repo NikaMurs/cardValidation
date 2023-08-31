@@ -7,9 +7,9 @@ describe("cardWidget test", () => {
 
   beforeEach(async () => {
     browser = await puppeteer.launch({
-      headless: true,
-      slowMo: 100,
-      devtools: true,
+      headless: "new",
+      //slowMo: 100,
+      //devtools: true,
     });
 
     page = await browser.newPage();
