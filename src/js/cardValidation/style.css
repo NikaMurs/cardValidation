@@ -1,0 +1,32 @@
+.card-validation-widget {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.card-form-icons {
+    display: flex;
+    align-items: center;
+}
+
+.card-form-icon:nth-child(n+2) {
+    margin-left: 20px;
+}
+
+.card-form-icon-png {
+    width: 64px;
+}
+
+.card-form-icon-inactive {
+    opacity: 0.2;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red;
+}
